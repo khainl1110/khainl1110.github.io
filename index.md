@@ -7,10 +7,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### SCE DEV Team work
 Task: Fixing front end bugs, required new account to have password length greater than 8 but the system didn't explicitly tell users
 ![Before](/img/membershipForm1.png){width:200px; height:100px}
-dsfa
-<img src = "/img/membershipForm1.png" alt = "Before" width:"200"/>
-After fixing the bugs, red texts will appear so that users can change the account detail to fit the requirements
 ![After](/img/membershipForm2.png)
+After fixing the bugs, red texts will appear so that users can change the account detail to fit the requirements
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
