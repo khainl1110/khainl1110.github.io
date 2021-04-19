@@ -5,8 +5,10 @@ You can use the [editor on GitHub](https://github.com/khainl1110/khainl1110.gith
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### SCE DEV Team work
-Task: Fixing front end bugs
+Task: Fixing front end bugs, required new account to have password length greater than 8 but the system didn't explicitly tell users
 ![Before](/img/membershipForm1.png)
+After fixing the bugs, red texts will appear so that users can change the account detail to fit the requirements
+![After](/img/membershipForm2.png)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
