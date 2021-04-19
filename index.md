@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### SCE DEV Team work
 Task: Fixing front end bugs, required new account to have password length greater than 8 but the system didn't explicitly tell users
 After fixing the bugs, red texts will appear so that users can change the account detail to fit the requirements
+
 <img src="img/membershipForm1.png" width="300" height="500"/> <img src="/img/membershipForm2.png" width="300" height="500"/>
 
 ### Markdown
