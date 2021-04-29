@@ -1,8 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome to my portfolio
 
 You can use the [editor on GitHub](https://github.com/khainl1110/khainl1110.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### SCE DEV Team work
+Task: Fixing front end bugs, required new account to have password length greater than 8 but the system didn't explicitly tell users
+
+After fixing the bugs, red texts will appear so that users can change the account detail to fit the requirements
+
+<img src="img/membershipForm1.png" width="300" height="500"/> <img src="/img/membershipForm2.png" width="300" height="500"/>
 
 ### Markdown
 
