@@ -12,13 +12,13 @@ In progress, each tags will have different color like in Discord:
 
 <img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking3.png" width="400" height="500"/>
 
-# Task: Fixing front end bugs
+# Task: Membership Application Bugs
 Before: required new account to have password length greater than 8 but the system didn't explicitly tell users
-<img src="img/membershipForm1.png" width="400" height="500"/> 
+<img src="img/MembershipApplicationBefore.png" width="400" height="500"/> 
 
 After fixing the bugs, red texts will appear as user typing to warn them if they needs to fill all the details/requirements
 
-<img src="/img/membershipForm2.png" width="400" height="500"/>
+<img src="/img/MembershipApplicationAfter.png" width="400" height="500"/>
 
 
 
