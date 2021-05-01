@@ -8,8 +8,7 @@ Before: the website used a membership status like Member, Officer, Admin, Ban, e
 
 In progress, each tags will have different color like in Discord: 
 
-<img src = "/img/tagsWorking2.png" width="400" height="500"/>
-<img src = "/img/tagsWorking3.png" width="400" height="500"/>
+<img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking3.png" width="400" height="500"/>
 
 # Task: Fixing front end bugs
 Before: required new account to have password length greater than 8 but the system didn't explicitly tell users
