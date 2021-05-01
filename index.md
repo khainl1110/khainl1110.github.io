@@ -7,6 +7,7 @@ Before: the website used a membership status like Member, Officer, Admin, Ban, e
 <img src="img/tagsBefore.png" width="400" height="500"/>
 
 In progress, each tags will have different color like in Discord: 
+
 <img src = "/img/tagsWorking2.png" width="400" height="500"/>
 <img src = "/img/tagsWorking3.png" width="400" height="500"/>
 
