@@ -2,11 +2,20 @@
 
 
 ### SCE DEV Team work
-Task: Fixing front end bugs, required new account to have password length greater than 8 but the system didn't explicitly tell users
+# Task: Implement Discord-like roles for the website called tags. 
+Before: the website used a membership status like Member, Officer, Admin, Ban, etc to designated the accounts. This membership status also used as an access check o certain parts of the website. For ex, Member cannot access Admin portal. However, tihs is hard to manage who has access to certain functions as the website grows.  Therefore the idea to implement something similar to Discord roles came up, with new functions came new tags and whose account has the tags will be able to access the website
+<img src="img/tagsBefore.png" width="400" height="500"/>
+In progress: 
+<img src = "/img/tagsWorking2.png" width="400" height="500"/>
+<img src = "/img/tagsWorking3.png" width="400" height="500"/>
 
-After fixing the bugs, red texts will appear so that users can change the account detail to fit the requirements
+# Task: Fixing front end bugs
+Before: required new account to have password length greater than 8 but the system didn't explicitly tell users
+<img src="img/membershipForm1.png" width="400" height="500"/> 
 
-<img src="img/membershipForm1.png" width="400" height="500"/> <img src="/img/membershipForm2.png" width="400" height="500"/>
+After fixing the bugs, red texts will appear as user typing to warn them if they needs to fill all the details/requirements
+
+<img src="/img/membershipForm2.png" width="400" height="500"/>
 
 
 
