@@ -8,7 +8,7 @@ Before: the website used a membership status like Member, Officer, Admin, Ban, e
 
 In progress, each tags will have different color like in Discord: 
 
-<img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking3.png" width="400" height="500"/>
+<img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking4.png" width="400" height="500"/>
 
 # Task: Membership Application Bugs
 Before: required new account to have password length greater than 8 but the system didn't explicitly tell users. In addition, the website didn't warn user when the let important fields empty such as their name and didn't check if their email was in correct format. As well as no confirm password section
