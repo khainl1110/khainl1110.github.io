@@ -4,6 +4,7 @@
 ### SCE DEV Team work
 # Task: Implement Discord-like roles for the website called tags. 
 Before: the website used a membership status like Member, Officer, Admin, Ban, etc to designated the accounts. This membership status also used as an access check o certain parts of the website. For ex, Member cannot access Admin portal. However, tihs is hard to manage who has access to certain functions as the website grows.  Therefore the idea to implement something similar to Discord roles came up, with new functions came new tags and whose account has the tags will be able to access the website 
+
 <img src="img/tagsBefore.png" width="400" height="500"/>
 
 Still in progress: each tags will have different color like in Discord, I implemented a drop-down search bar for adding/removing tags: 
@@ -20,7 +21,7 @@ After fixing the bugs, red texts will appear as user typing to warn them if they
 
 After many changes, my PR got merged
 <a href="https://github.com/SCE-Development/Core-v4/pull/675">PR Link</a> 
-<img src = "img/MembershipApplicationMerged.png" width = "600" height = "500"/>
+<img src = "img/MembershipApplicationMerged.png" width = "700" height = "400"/>
 
 ### Markdown
 
