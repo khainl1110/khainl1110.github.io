@@ -19,8 +19,8 @@ After fixing the bugs, red texts will appear as user typing to warn them if they
 <img src="/img/MembershipApplicationAfter.png" width="400" height="500"/>
 
 After many changes, my PR got merged
-<a href="https://github.com/SCE-Development/Core-v4/pull/675">PR Link</a>
-<img src = "img/MembershipApplicationMerged.png" width = "400" height = "500"/>
+<a href="https://github.com/SCE-Development/Core-v4/pull/675">PR Link</a> 
+<img src = "img/MembershipApplicationMerged.png" width = "600" height = "500"/>
 
 ### Markdown
 
