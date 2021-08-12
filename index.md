@@ -6,6 +6,7 @@
 Before: the website used a membership status like Member, Officer, Admin, Ban, etc to designated the accounts. This membership status also used as an access check for certain parts of the website. For ex, Member cannot access Admin portal. However, we want something like Discord roles, user can subscribe to specific section of our club website while keeping the access level
 
 Therefore we come up wih tags, user will have appropriate tags for who they are
+
 Changes I made in the backend:
 - Create tag schema with following attribute:
   + role, string of the tag
@@ -15,9 +16,11 @@ Changes I made in the backend:
 - User schema:
   + tags: [ObjectID of tag schema]
 
-<img src="img/tagsBefore.png" width="400" height="500"/>
+The idea is to references tag objects by their id in user schema and vice versa. Then whenever we need to check for user's tag, we loop through user tags attribute and checking if their access level is high enough or they have that particular role to access that part of the website.
 
-Still in progress: each tags will have different color like in Discord, I implemented a drop-down search bar for adding/removing tags: 
+Since mongodb is not a relational database, doing references might not be a good database design.
+
+Each tags will have different color like in Discord, I implemented a drop-down search bar for adding/removing tags: 
 
 <img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking4.png" width="400" height="500"/>
 
