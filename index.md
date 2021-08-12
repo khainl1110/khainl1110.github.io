@@ -18,8 +18,6 @@ Changes I made in the backend:
 
 The idea is to references tag objects by their id in user schema and vice versa. Then whenever we need to check for user's tag, we loop through user tags attribute and checking if their access level is high enough or they have that particular role to access that part of the website.
 
-Since mongodb is not a relational database, doing references might not be a good database design.
-
 Each tags will have different color like in Discord, I implemented a drop-down search bar for adding/removing tags: 
 
 <img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking4.png" width="400" height="500"/>
