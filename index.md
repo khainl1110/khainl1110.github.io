@@ -2,8 +2,18 @@
 
 
 ### SCE DEV Team work
-# Task: Implement Discord-like roles for the website called tags. 
-Before: the website used a membership status like Member, Officer, Admin, Ban, etc to designated the accounts. This membership status also used as an access check o certain parts of the website. For ex, Member cannot access Admin portal. However, tihs is hard to manage who has access to certain functions as the website grows.  Therefore the idea to implement something similar to Discord roles came up, with new functions came new tags and whose account has the tags will be able to access the website 
+#### Task: Implement Discord-like roles for the website called tags. 
+Before: the website used a membership status like Member, Officer, Admin, Ban, etc to designated the accounts. This membership status also used as an access check for certain parts of the website. For ex, Member cannot access Admin portal. However, we want something like Discord roles, user can subscribe to specific section of our club website while keeping the access level
+
+Therefore we come up wih tags, user will have appropriate tags for who they are
+Changes I made in the backend:
+- Create tag schema with following attribute:
+  + role, string of the tag
+  + level, level of access, same idea with access level
+  + color, for decoration purpose
+  + users: [ObjectID of User schema]
+- User schema:
+  + tags: [ObjectID of tag schema]
 
 <img src="img/tagsBefore.png" width="400" height="500"/>
 
@@ -11,7 +21,7 @@ Still in progress: each tags will have different color like in Discord, I implem
 
 <img src = "/img/tagsWorking2.png" width="400" height="500"/><img src = "/img/tagsWorking4.png" width="400" height="500"/>
 
-# Task: Membership Application Bugs
+#### Task: Membership Application Bugs
 Before: required new account to have password length greater than 8 but the system didn't explicitly tell users. In addition, the website didn't warn user when the let important fields empty such as their name and didn't check if their email was in correct format. As well as no confirm password section
 <img src="img/MembershipApplicationBefore.png" width="400" height="500"/> 
 
